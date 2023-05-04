@@ -2,7 +2,7 @@ import { Button } from './microComponents/Button'
 import { H2 } from './microComponents/H2'
 import { Span } from './microComponents/Span'
 
-export default function Section2() {
+export default function Section3() {
   return (
     <section
       className="px-5 py-10 flex flex-col gap-10 bg-cover bg-opacity-80 bg-center h-full"
