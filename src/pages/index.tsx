@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import Section1 from '@/components/Section1'
 import { Section10 } from '@/components/Section10'
@@ -28,6 +29,7 @@ export default function Home() {
       <Section10 />
       <Section11 />
       <Section12 />
+      <Footer />
     </>
   )
 }
