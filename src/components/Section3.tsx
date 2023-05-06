@@ -5,7 +5,7 @@ import { Span } from './microComponents/Span'
 export default function Section3() {
   return (
     <section
-      className="px-5 py-10 bg-gray-50 flex flex-col gap-10 bg-cover bg-opacity-80 bg-center h-full"
+      className="px-5 py-10 bg-gray-50 flex flex-col gap-10 bg-cover bg-opacity-80 bg-center h-full lg:py-20 lg:px-80 lg:items-center lg:bg-[1280px]"
       style={{ backgroundImage: "url('/section2bg.png')" }}
     >
       <H2 align="left">
@@ -31,7 +31,7 @@ export default function Section3() {
       </div>
 
       <Button>
-        QUERO SER VISTA COMO <br />
+        QUERO SER VISTA COMO <br className="lg:hidden" />
         AUTORIDADE
       </Button>
     </section>
