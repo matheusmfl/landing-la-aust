@@ -11,6 +11,7 @@ import { Section6 } from '@/components/Section6'
 import Section7 from '@/components/Section7'
 import Section8 from '@/components/Section8'
 import Section9 from '@/components/Section9'
+import { Cta } from '@/components/microComponents/Cta'
 import Section12 from '@/components/section12'
 import Head from 'next/head'
 
@@ -34,6 +35,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="keywords" />
       </Head>
+      <Cta />
       <Header />
       <Section1 />
       <Section2 />
