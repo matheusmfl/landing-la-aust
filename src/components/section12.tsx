@@ -2,8 +2,8 @@ import { Span } from './microComponents/Span'
 
 export default function Section12() {
   return (
-    <section className="bg-stone-100 flex flex-col px-5 py-10 ">
-      <div className="bg-white px-2 py-6 flex flex-col gap-10 filter shadow-2xl text-center">
+    <section className="bg-stone-100 flex flex-col px-5 py-10 lg:px-32">
+      <div className="bg-white px-2 py-6 flex flex-col gap-10 filter shadow-2xl text-center lg:px-14">
         <Span>
           Desde sempre eu soube que o meu propósito era ajudar as pessoas, e eu
           sou muito abençoada por poder fazer isso através do meu trabalho. A La

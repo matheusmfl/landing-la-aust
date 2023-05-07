@@ -10,11 +10,12 @@ import Image from 'next/image'
 export default function Section7() {
   return (
     <section
-      className="py-10 px-5 text-center flex flex-col gap-10 bg-cover bg-opacity-80 bg-center"
+      className="py-10 px-5 text-center flex flex-col gap-10 bg-cover bg-opacity-80 bg-center lg:px-80 lg:py-20"
       style={{ backgroundImage: "url('/feedbackBg.png')" }}
     >
       <H2 align="white">O que dizem nossos clientes</H2>
-      <div className="flex flex-col gap-5 items-center">
+
+      <div className="flex flex-col gap-5 items-center lg:flex-row">
         <div>
           <Image
             src={image1}
@@ -33,6 +34,9 @@ export default function Section7() {
             alt="Balão de fala relatando como foi trabalhar com a LaAust"
           />
         </div>
+      </div>
+
+      <div className="flex flex-col gap-5 items-center lg:flex-row">
         <div>
           <Image
             src={image4}
