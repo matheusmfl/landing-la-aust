@@ -48,9 +48,9 @@ export default function Section4() {
           </div>
         </section>
       ) : (
-        <section className="py-10 px-5 flex flex-col items-center justify-center gap-5 bg-zinc-200">
+        <section className="py-10 px-5 flex flex-col items-center justify-center gap-10 bg-zinc-200">
           <H2>Podemos te ajudar se você... </H2>
-          <div className="font-Montserrat text-base text-zinc-950 flex flex-col gap-[10px]">
+          <div className="font-Montserrat text-base text-zinc-950 flex flex-col gap-[20px] mb-4">
             <Baloon>Se sente frustrada com a falta de reconhecimento</Baloon>
             <Baloon>Deseja ter mais visibilidade</Baloon>
             <Baloon>Quer ser vista como autoridade na sua área</Baloon>

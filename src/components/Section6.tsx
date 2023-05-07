@@ -7,24 +7,28 @@ import Image from 'next/image'
 
 export function Section6() {
   return (
-    <section className="py-10 px-5 flex flex-col items-center justify-center gap-10 bg-zinc-50">
+    <section className="py-10 px-5 flex flex-col items-center justify-center gap-10 bg-zinc-50 lg:px-80">
       <H2>Algumas marcas que transformamos...</H2>
 
       <div className="flex flex-col gap-5">
-        <div className="filter drop-shadow-lg">
-          <Image src={image1} alt="Imagem de portfólio 1" />
+        <div className="flex flex-col gap-5 lg:flex-row">
+          <div className="filter drop-shadow-lg">
+            <Image src={image1} alt="Imagem de portfólio 1" />
+          </div>
+
+          <div className="filter drop-shadow-lg">
+            <Image src={image2} alt="Imagem de portfólio 2" />
+          </div>
         </div>
 
-        <div className="filter drop-shadow-lg">
-          <Image src={image2} alt="Imagem de portfólio 2" />
-        </div>
+        <div className="flex flex-col gap-5 lg:flex-row">
+          <div className="filter drop-shadow-lg">
+            <Image src={image3} alt="Imagem de portfólio 3" />
+          </div>
 
-        <div className="filter drop-shadow-lg">
-          <Image src={image3} alt="Imagem de portfólio 3" />
-        </div>
-
-        <div className="filter drop-shadow-lg">
-          <Image src={image4} alt="Imagem de portfólio 4" />
+          <div className="filter drop-shadow-lg">
+            <Image src={image4} alt="Imagem de portfólio 4" />
+          </div>
         </div>
       </div>
     </section>
