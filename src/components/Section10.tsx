@@ -14,8 +14,8 @@ export function Section10() {
         <span className="font-light text-base">Oi, eu sou a Leticia</span>
       </div>
 
-      <div className="font-Montserrat text-black flex flex-col items-center justify-center gap-5 lg:flex-row">
-        <div className="flex flex-col items-center justify-center">
+      <div className="font-Montserrat text-black flex flex-col items-center justify-center gap-5 lg:gap-0 lg:flex-row lg:items-center lg:justify-center">
+        <div className="flex flex-col items-center justify-center lg:w-64">
           <Image src={icon1} alt="ícone ilustrativo" />
           <span className="font-normal text-xl">+3 MIL</span>
           <span className="text-base">
@@ -24,7 +24,7 @@ export function Section10() {
           </span>
         </div>
 
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center lg:w-64">
           <Image src={icon2} alt="ícone ilustrativo" />
           <span className="font-normal text-xl">6 PAÍSES</span>
           <span className="text-base">
@@ -33,7 +33,7 @@ export function Section10() {
           </span>
         </div>
 
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center lg:w-64">
           <Image src={icon3} alt="ícone ilustrativo" />
           <span className="font-normal text-xl">LUXURY</span>
           <span className="text-base">
